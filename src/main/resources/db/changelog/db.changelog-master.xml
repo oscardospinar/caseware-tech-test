@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.31.xsd">
+    <include file="legacy-schema-validation.xml" relativeToChangelogFile="true"/>
+
+    <changeSet id="001-baseline" author="caseware">
+        <comment>Adopt the known legacy H2 schema without replacing rows, or create a fresh schema.</comment>
+        <sqlFile path="001-baseline.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+    <changeSet id="002-indexes" author="caseware">
+        <sqlFile path="002-indexes.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+</databaseChangeLog>

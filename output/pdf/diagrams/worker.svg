@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="511.27559055118115" height="94" preserveAspectRatio="xMinYMin meet" viewBox="0 0 511 94" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="511.27559055118115" height="94"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-94)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="40" width="109" height="43" rx="4" ry="4" style="stroke: rgb(14%,45%,32%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(89%,96%,92%); fill-rule: evenodd;"/>
+			<text x="33.7398681640625" y="63.5" style="font-family: ArialBold; font-size: 8.3px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,127) scale(1,-1)">Claim task</text>
+			<text x="5.1376953125" y="53.5" style="font-family: Arial; font-size: 8.3px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,107) scale(1,-1)">Check revision / duplicates</text>
+			<rect x="132" y="40" width="111" height="43" rx="4" ry="4" style="stroke: rgb(14%,45%,32%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(89%,96%,92%); fill-rule: evenodd;"/>
+			<text x="167.6679443359375" y="63.5" style="font-family: ArialBold; font-size: 8.3px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,127) scale(1,-1)">Admit call</text>
+			<text x="140.5632568359375" y="53.5" style="font-family: Arial; font-size: 8.3px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,107) scale(1,-1)">Capacity + circuit breaker</text>
+			<rect x="266" y="40" width="101" height="43" rx="4" ry="4" style="stroke: rgb(14%,45%,32%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(89%,96%,92%); fill-rule: evenodd;"/>
+			<text x="299.43798828125" y="63.5" style="font-family: ArialBold; font-size: 8.3px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,127) scale(1,-1)">Load file</text>
+			<text x="283.968701171875" y="53.5" style="font-family: Arial; font-size: 8.3px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,107) scale(1,-1)">About one minute</text>
+			<rect x="390" y="40" width="121.27559055118115" height="43" rx="4" ry="4" style="stroke: rgb(14%,45%,32%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(89%,96%,92%); fill-rule: evenodd;"/>
+			<text x="417.6525901974656" y="63.5" style="font-family: ArialBold; font-size: 8.3px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,127) scale(1,-1)">Persist, then ack</text>
+			<text x="407.3849876584031" y="53.5" style="font-family: Arial; font-size: 8.3px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,107) scale(1,-1)">Result + job completion</text>
+			<path d="M 109,61 L 132,61 Z" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<polygon points="132 61, 127 58.7, 127 63.3" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1; fill: rgb(32%,39%,45%); fill-rule: evenodd;"/>
+			<path d="M 243,61 L 266,61 Z" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<polygon points="266 61, 261 58.7, 261 63.3" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1; fill: rgb(32%,39%,45%); fill-rule: evenodd;"/>
+			<path d="M 367,61 L 390,61 Z" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<polygon points="390 61, 385 58.7, 385 63.3" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1; fill: rgb(32%,39%,45%); fill-rule: evenodd;"/>
+			<path d="M 316,40 L 316,13 Z" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 0.9; stroke-dasharray: 3, 2;"/>
+			<path d="M 316,13 L 54,13 Z" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 0.9; stroke-dasharray: 3, 2;"/>
+			<path d="M 54,13 L 54,40 Z" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 0.9; stroke-dasharray: 3, 2;"/>
+			<polygon points="54 40, 56.3 35, 51.7 35" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1; fill: rgb(32%,39%,45%); fill-rule: evenodd;"/>
+			<text x="107.9680419921875" y="21" style="font-family: Arial; font-size: 7.7px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,42) scale(1,-1)">Resolve ambiguity; defer or retry with backoff</text>
+		</g>
+	</g>
+</svg>

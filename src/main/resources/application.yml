@@ -1,0 +1,48 @@
+spring:
+  application:
+    name: template-fanout-worker
+  main:
+    web-application-type: none
+    banner-mode: "off"
+  profiles:
+    default: local
+  liquibase:
+    change-log: classpath:db/changelog/postgresql/db.changelog-master.xml
+  sql:
+    init:
+      mode: never
+  datasource:
+    hikari:
+      maximum-pool-size: 24
+      minimum-idle: 1
+      connection-timeout: 30000
+      validation-timeout: 5000
+      idle-timeout: 600000
+      max-lifetime: 1800000
+
+fanout:
+  worker-enabled: true
+  local-concurrency: 4
+  page-size: 100
+  runtime:
+    dispatch-batch-size: 100
+    idle-delay: 20ms
+    failure-delay: 100ms
+    shutdown-timeout: 5s
+  heartbeat:
+    threads: 1
+    interval: 3s
+    shutdown-timeout: 5s
+  database:
+    lock-timeout: 5s
+  limits:
+    max-active: 2
+    max-per-firm: 1
+    min-start-spacing: 20ms
+    max-attempts: 3
+    lease: 10s
+    poll-delay: 100ms
+    base-backoff: 1s
+    max-backoff: 30s
+    circuit-failures: 3
+    circuit-cooldown: 15s

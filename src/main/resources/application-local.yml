@@ -1,0 +1,24 @@
+# Disposable local credentials only. Never used by qa/prod.
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:${POSTGRES_PORT:15432}/fanout}
+    username: ${DB_USERNAME:fanout}
+    password: ${DB_PASSWORD:fanout-local-only}
+    hikari:
+      maximum-pool-size: 8
+  liquibase:
+    enabled: true
+fanout:
+  region: EU
+  local-concurrency: 2
+  runtime:
+    idle-delay: 100ms
+  demo:
+    enabled: false
+    delay: 100ms
+    timeout: 5m
+    poll-interval: 25ms
+    inspection-limit: 1000
+logging:
+  level:
+    root: INFO

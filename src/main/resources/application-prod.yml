@@ -1,0 +1,20 @@
+# Credentials and endpoints are supplied by the deployment environment.
+spring:
+  config:
+    import: optional:configtree:/run/secrets/
+  datasource:
+    url: ${DB_URL:}
+    username: ${DB_USERNAME:}
+    password: ${DB_PASSWORD:}
+    hikari:
+      maximum-pool-size: 24
+  liquibase:
+    enabled: false
+fanout:
+  region: ${FANOUT_REGION:}
+  local-concurrency: 4
+  runtime:
+    idle-delay: 20ms
+logging:
+  level:
+    root: INFO

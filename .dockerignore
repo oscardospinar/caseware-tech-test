@@ -1,0 +1,7 @@
+**
+!Dockerfile
+!pom.xml
+!config/
+!config/**
+!src/
+!src/**

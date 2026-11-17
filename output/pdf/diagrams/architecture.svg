@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="511.27559055118115" height="267" preserveAspectRatio="xMinYMin meet" viewBox="0 0 511 267" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="511.27559055118115" height="267"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-267)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="5" width="511.27559055118115" height="197" rx="6" ry="6" style="stroke: rgb(79%,83%,86%); stroke-linecap: butt; stroke-width: 0.8; fill: none; fill-rule: evenodd;"/>
+			<text x="306.81074680118115" y="186" style="font-family: ArialBold; font-size: 8px;fill: rgb(32%,39%,45%); stroke:none;" transform="translate(0,372) scale(1,-1)">FIRM REGION - REPEAT PER APPROVED REGION</text>
+			<rect x="10" y="222" width="190" height="38" rx="4" ry="4" style="stroke: rgb(20%,44%,67%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,94%,98%); fill-rule: evenodd;"/>
+			<text x="60.5962158203125" y="243.0" style="font-family: ArialBold; font-size: 8.3px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,486) scale(1,-1)">Template service + DB</text>
+			<text x="45.7186279296875" y="233.0" style="font-family: Arial; font-size: 8.3px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,466) scale(1,-1)">Existing source of template truth</text>
+			<text x="286" y="249" style="font-family: ArialBold; font-size: 8px;fill: rgb(20%,44%,67%); stroke:none;" transform="translate(0,498) scale(1,-1)">EXISTING</text>
+			<text x="394" y="249" style="font-family: ArialBold; font-size: 8px;fill: rgb(14%,45%,32%); stroke:none;" transform="translate(0,498) scale(1,-1)">NEW</text>
+			<text x="286" y="234" style="font-family: Arial; font-size: 8px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,468) scale(1,-1)">Blue</text>
+			<text x="394" y="234" style="font-family: Arial; font-size: 8px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,468) scale(1,-1)">Green</text>
+			<rect x="10" y="125" width="190" height="43" rx="4" ry="4" style="stroke: rgb(14%,45%,32%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(89%,96%,92%); fill-rule: evenodd;"/>
+			<text x="65.441259765625" y="148.5" style="font-family: ArialBold; font-size: 8.3px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,297) scale(1,-1)">API + event process</text>
+			<text x="45.48154296875" y="138.5" style="font-family: Arial; font-size: 8.3px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,277) scale(1,-1)">Queries, catalog and projections</text>
+			<rect x="280" y="125" width="221.27559055118115" height="43" rx="4" ry="4" style="stroke: rgb(14%,45%,32%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(89%,96%,92%); fill-rule: evenodd;"/>
+			<text x="342.43862535371557" y="148.5" style="font-family: ArialBold; font-size: 8.3px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,297) scale(1,-1)">Regional metadata store</text>
+			<text x="324.88623277559054" y="138.5" style="font-family: Arial; font-size: 8.3px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,277) scale(1,-1)">Inbox, catalog, jobs and read model</text>
+			<rect x="10" y="37" width="110" height="42" rx="4" ry="4" style="stroke: rgb(20%,44%,67%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,94%,98%); fill-rule: evenodd;"/>
+			<text x="24.638818359375" y="60.0" style="font-family: ArialBold; font-size: 8.3px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,120) scale(1,-1)">Engagement system</text>
+			<text x="30.5254150390625" y="50.0" style="font-family: Arial; font-size: 8.3px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,100) scale(1,-1)">Service + firm DBs</text>
+			<rect x="150" y="37" width="150" height="42" rx="4" ry="4" style="stroke: rgb(14%,45%,32%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(89%,96%,92%); fill-rule: evenodd;"/>
+			<text x="183.9356689453125" y="60.0" style="font-family: ArialBold; font-size: 8.3px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,120) scale(1,-1)">Java worker process</text>
+			<text x="168.0367919921875" y="50.0" style="font-family: Arial; font-size: 8.3px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,100) scale(1,-1)">Fan-out, slow calls, summaries</text>
+			<rect x="330" y="37" width="171.27559055118115" height="42" rx="4" ry="4" style="stroke: rgb(14%,45%,32%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(89%,96%,92%); fill-rule: evenodd;"/>
+			<text x="381.51174547090307" y="60.0" style="font-family: ArialBold; font-size: 8.3px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,120) scale(1,-1)">Slow-work queue</text>
+			<text x="384.2696312130906" y="50.0" style="font-family: Arial; font-size: 8.3px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,100) scale(1,-1)">Verification tasks</text>
+			<path d="M 105,222 L 105,168 Z" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<polygon points="105 168, 102.7 173, 107.3 173" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1; fill: rgb(32%,39%,45%); fill-rule: evenodd;"/>
+			<text x="123.095703125" y="211" style="font-family: Arial; font-size: 8px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,422) scale(1,-1)">Durable events</text>
+			<path d="M 200,148 L 280,148 Z" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<polygon points="280 148, 275 145.7, 275 150.3" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1; fill: rgb(32%,39%,45%); fill-rule: evenodd;"/>
+			<text x="214.7512939453125" y="156" style="font-family: Arial; font-size: 7.7px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,312) scale(1,-1)">Query / project</text>
+			<path d="M 420,125 L 420,79 Z" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<polygon points="420 79, 417.7 84, 422.3 84" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1; fill: rgb(32%,39%,45%); fill-rule: evenodd;"/>
+			<text x="439.8265625" y="100" style="font-family: Arial; font-size: 7.8px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,200) scale(1,-1)">Dispatch</text>
+			<path d="M 330,58 L 300,58 Z" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<polygon points="300 58, 305 60.3, 305 55.7" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1; fill: rgb(32%,39%,45%); fill-rule: evenodd;"/>
+			<path d="M 150,58 L 120,58 Z" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<polygon points="120 58, 125 60.3, 125 55.7" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1; fill: rgb(32%,39%,45%); fill-rule: evenodd;"/>
+			<text x="99.797998046875" y="22" style="font-family: Arial; font-size: 7.8px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,44) scale(1,-1)">Controlled load: about 1 minute</text>
+			<path d="M 65,79 L 65,125 Z" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<polygon points="65 125, 67.3 120, 62.7 120" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1; fill: rgb(32%,39%,45%); fill-rule: evenodd;"/>
+			<text x="80.1534423828125" y="101" style="font-family: Arial; font-size: 7.5px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,202) scale(1,-1)">State events</text>
+			<path d="M 225,79 L 225,105 Z" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<path d="M 225,105 L 320,105 Z" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<path d="M 320,105 L 320,125 Z" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 0.9;"/>
+			<polygon points="320 125, 322.3 120, 317.7 120" style="stroke: rgb(32%,39%,45%); stroke-linecap: butt; stroke-width: 1; fill: rgb(32%,39%,45%); fill-rule: evenodd;"/>
+			<text x="243.1983642578125" y="112" style="font-family: Arial; font-size: 7.5px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,224) scale(1,-1)">Verified results</text>
+		</g>
+	</g>
+</svg>

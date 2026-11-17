@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.31.xsd">
+    <!-- Validation only: no DDL and no additional migration history entry. -->
+    <preConditions onFail="HALT" onError="HALT">
+        <or>
+            <changeSetExecuted id="001-baseline" author="caseware"
+                               changeLogFile="db/changelog/db.changelog-master.xml"/>
+            <and>
+                <dbms type="h2"/>
+                <or>
+                    <and>
+                        <not><tableExists tableName="control"/></not>
+                        <not><tableExists tableName="firms"/></not>
+                        <not><tableExists tableName="messages"/></not>
+                        <not><tableExists tableName="metadata"/></not>
+                        <not><tableExists tableName="outbox"/></not>
+                        <not><tableExists tableName="runs"/></not>
+                        <not><tableExists tableName="tasks"/></not>
+                    </and>
+                    <and>
+                        <tableExists tableName="control"/>
+                        <columnExists tableName="control" columnName="id"/>
+                        <columnExists tableName="control" columnName="region"/>
+                        <columnExists tableName="control" columnName="config"/>
+                        <columnExists tableName="control" columnName="next_start"/>
+                        <columnExists tableName="control" columnName="failures"/>
+                        <columnExists tableName="control" columnName="open_until"/>
+                        <columnExists tableName="control" columnName="probe_task"/>
+                        <columnExists tableName="control" columnName="turn"/>
+                        <tableExists tableName="firms"/>
+                        <columnExists tableName="firms" columnName="firm"/>
+                        <columnExists tableName="firms" columnName="last_turn"/>
+                        <tableExists tableName="messages"/>
+                        <columnExists tableName="messages" columnName="id"/>
+                        <columnExists tableName="messages" columnName="task_id"/>
+                        <columnExists tableName="messages" columnName="visible_at"/>
+                        <columnExists tableName="messages" columnName="receipt"/>
+                        <tableExists tableName="metadata"/>
+                        <columnExists tableName="metadata" columnName="firm"/>
+                        <columnExists tableName="metadata" columnName="engagement"/>
+                        <columnExists tableName="metadata" columnName="revision"/>
+                        <columnExists tableName="metadata" columnName="applied_version"/>
+                        <tableExists tableName="outbox"/>
+                        <columnExists tableName="outbox" columnName="task_id"/>
+                        <columnExists tableName="outbox" columnName="published"/>
+                        <tableExists tableName="runs"/>
+                        <columnExists tableName="runs" columnName="id"/>
+                        <columnExists tableName="runs" columnName="pub_id"/>
+                        <columnExists tableName="runs" columnName="product"/>
+                        <columnExists tableName="runs" columnName="target"/>
+                        <columnExists tableName="runs" columnName="cursor_value"/>
+                        <columnExists tableName="runs" columnName="finished"/>
+                        <columnExists tableName="runs" columnName="active"/>
+                        <tableExists tableName="tasks"/>
+                        <columnExists tableName="tasks" columnName="id"/>
+                        <columnExists tableName="tasks" columnName="run_id"/>
+                        <columnExists tableName="tasks" columnName="region"/>
+                        <columnExists tableName="tasks" columnName="firm"/>
+                        <columnExists tableName="tasks" columnName="engagement"/>
+                        <columnExists tableName="tasks" columnName="required_revision"/>
+                        <columnExists tableName="tasks" columnName="state"/>
+                        <columnExists tableName="tasks" columnName="attempts"/>
+                        <columnExists tableName="tasks" columnName="operation_id"/>
+                        <columnExists tableName="tasks" columnName="due_at"/>
+                        <columnExists tableName="tasks" columnName="token"/>
+                        <columnExists tableName="tasks" columnName="lease_until"/>
+                        <columnExists tableName="tasks" columnName="error_code"/>
+                    </and>
+                </or>
+            </and>
+        </or>
+    </preConditions>
+</databaseChangeLog>
